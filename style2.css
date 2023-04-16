@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: yellow;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.li {
+    margin-top: 20px;
+}
+
+.Box1 {
+    width: 150px;
+    height: 120px;
+    border: 1px solid rgb(143, 198, 51);
+    background-color: rgb(143, 198, 51);
+}
+
+.Box1:hover {
+    width: 300px;
+    transition-duration: 2s;
+}
+
+.Box2 {
+    width: 150px;
+    height: 120px;
+    border: 1px solid rgb(143, 198, 51);
+    background-color: rgb(143, 198, 51);
+    transition-duration: 2s;
+}
+
+.Box2:hover {
+
+    width: 280px;
+    height: 300px;
+
+}
+
+.Box3 {
+    width: 150px;
+    height: 120px;
+    border: 1px solid rgb(143, 198, 51);
+    background-color: rgb(143, 198, 51);
+    transition: 2s linear;
+}
+
+.Box3:hover {
+    width: 300px;
+}
+
+.Box4 {
+    width: 150px;
+    height: 120px;
+    border: 1px solid rgb(143, 198, 51);
+    background-color: rgb(143, 198, 51);
+    transition: 2s ease;
+}
+
+.Box4:hover {
+    width: 300px;
+}
+
+.Box5 {
+    width: 150px;
+    height: 120px;
+    border: 1px solid rgb(143, 198, 51);
+    background-color: rgb(143, 198, 51);
+    transition: 2s ease-in;
+}
+
+.Box5:hover {
+    width: 300px;
+}
+
+.Box6 {
+    width: 150px;
+    height: 120px;
+    border: 1px solid rgb(143, 198, 51);
+    background-color: rgb(143, 198, 51);
+    transition: 2s ease-out;
+}
+
+.Box6:hover {
+    width: 300px;
+}
+
+.Box7 {
+    width: 150px;
+    height: 120px;
+    border: 1px solid rgb(143, 198, 51);
+    background-color: rgb(143, 198, 51);
+    transition: 2s ease-in-out;
+}
+
+.Box7:hover {
+    width: 300px;
+}
+
+a {
+    font-size: xx-large;
+}
